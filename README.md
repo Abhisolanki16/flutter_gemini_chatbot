@@ -9,8 +9,6 @@ A simple chatbot demo application built using **Flutter** and powered by **Googl
 - ✨ Chat interface with real-time message display
 - 💬 Integration with Google's Gemini Generative AI
 - ⏳ Loading indicator for AI response
-- 🌓 Light/Dark theme support
-- 🧱 Clean, modular architecture (widgets, services, models)
 - 📦 Easily extendable and customizable
 
 ---
