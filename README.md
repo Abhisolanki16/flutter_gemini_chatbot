@@ -1,16 +1,26 @@
-# flutter_gemini_chatbot
+# 🤖 Flutter Gemini Chatbot Demo
 
-A new Flutter project.
+A simple chatbot demo application built using **Flutter** and powered by **Google's Gemini AI (Generative AI from Vertex/Gemini API)**. This project demonstrates how to integrate Gemini with Flutter to create conversational UI experiences.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✨ Chat interface with real-time message display
+- 💬 Integration with Google's Gemini Generative AI
+- ⏳ Loading indicator for AI response
+- 🌓 Light/Dark theme support
+- 🧱 Clean, modular architecture (widgets, services, models)
+- 📦 Easily extendable and customizable
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.1
+  flutter_dotenv: ^5.1.0
