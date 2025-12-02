@@ -36,6 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   http: ^1.4.0
   flutter_dotenv: ^5.2.1
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true # Or true to use default adaptive icon settings
+  image_path: "assets/logo.png" 
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +67,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/
     - .env # Add this line
 
   #   - images/a_dot_ham.jpeg
