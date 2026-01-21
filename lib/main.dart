@@ -1,5 +1,6 @@
 // main.dart
 import 'package:flutter/material.dart';
+import 'package:flutter_gemini_chatbot/painter_demo.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:flutter_dotenv/flutter_dotenv.dart'; // Import dotenv
@@ -25,7 +26,7 @@ class ChatbotApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Inter', // Using Inter font as recommended
       ),
-      home: const ChatScreen(),
+      home: AnimationDemoScreen(),
       debugShowCheckedModeBanner: false, // Hide debug banner
     );
   }
